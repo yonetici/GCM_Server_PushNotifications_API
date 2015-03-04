@@ -33,7 +33,7 @@ class GCMUtility{
 
 	//Constructor with Google API Browser Key as Parameter
 	//Parameter Type: String
-	function __contruct($apiKey){
+	function __construct($apiKey){
 		 $this->url = "https://android.googleapis.com/gcm/send";
 		 $this->api_key = $apiKey;
 	}
